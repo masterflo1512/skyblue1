@@ -36,18 +36,19 @@
 
 // *************************************************
 
-// document.getElementById("plusBtn").addEventListener("click", () => {
-//   let data = +document.getElementById("inputnumber").value;
-//   document.getElementById("number").innerHTML += data;
-// });
-
-let plusCounter = document.getElementById("plusBtn");
-let minusCounter = document.getElementById("minusBtn");
-let number = document.getElementById("number");
-let inputValue = document.getElementById("inputNumber");
-let data = 0;
-
-plusCounter.addEventListener("click", function () {
-  let data = +inputValue.Value;
-  numberResult.innerHTML = data;
+document.getElementById("plusBtn").addEventListener("click", () => {
+  let data = +document.getElementById("inputNumber").value;
+  let result = document.getElementById("number");
+  result.innerHTML = +result.innerHTML * data;
 });
+
+// let plusCounter = document.getElementById("plusBtn");
+// let minusCounter = document.getElementById("minusBtn");
+// let number = document.getElementById("number");
+// let inputValue = document.getElementById("inputNumber");
+// let data = 0;
+
+// plusCounter.addEventListener("click", function () {
+//   let data = +inputValue.Value;
+//   numberResult.innerHTML = data;
+// });
