@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+}
+body {
+  text-align: center;
+  margin: 0;
+}
+.click-event {
+  border: 6px solid grey;
+  background-color: lightcoral;
+  padding: 10px;
+}
+p {
+  visibility: hidden;
+  width: 240px;
+  margin: 10px auto 0;
+}

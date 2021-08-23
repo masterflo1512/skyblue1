@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+.menu {
+    height: 60px;
+    background-color: gray;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.flexparent {
+    height: 400px;
+    margin: auto;
+    border: 2px solid #EEE;
+    background-color: skyblue;
+    display: flex;
+    
+}
+.flexparent > div {
+    width: 100px;
+    height: 100%;
+    background-color: tomato;
+    padding: 10px;
+    
+
+
+}

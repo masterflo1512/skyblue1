@@ -1,0 +1,149 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+h1 {
+    font-size: 2.2rem;
+    font-weight: 100;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 100;
+    letter-spacing: -1px;
+}
+a,
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+p {
+    line-height: 36px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.button {
+    border: 1px solid #ccc;
+    background: transparent;
+    border-radius: 50px;
+    padding: 13px 30px;
+    display: inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    cursor: pointer;
+    /* font: 700 0.75rem "Source Sans Pro , sans-serif"; */
+    transition: 0.3s;
+}
+
+
+
+
+
+/* ****************************************************** */
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;;
+}
+header {
+    /* min-height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 20px;   
+}
+.sunset {
+    background: url("sunset.jpg") center/cover;
+    width: 600px;
+    height: 400px;
+    margin-right: 120px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    /* padding: 110px; */
+}
+/*************************secttion1**************/
+}
+section {
+    /* display: flex; */
+}
+.section-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img {
+    background: url("app.jpg");
+    width: 600px;
+    height: 400px; 
+    margin-left: 120px; 
+}
+
+/* ********************section2************************ */
+
+.section-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2 {
+    background: url("foto.jpg");
+    width: 600px;
+    height: 400px;
+    margin-right: 120px;
+}
+
+/* **********************contact**************** */
+
+.contact {
+
+    margin-top: 100px;
+    margin-left: 500px;
+    width: 500px;
+    height: 350px;
+    background-color: aqua;
+    border: 2px solid red;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    
+    
+}
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+
+/* *************************footer*************** */
+
+footer {
+    padding: 70px 0 90px;
+}
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    width: 33%;
+    margin: 0 auto;
+}
+footer a {
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s;
+
+}

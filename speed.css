@@ -1,0 +1,39 @@
+
+div {
+    width: 600px;
+    border: solid;
+    text-align: center;
+    color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(70, 86, 129, 0.733);
+    line-height: 40px;
+    /* text-indent: 40px; */
+    font-family: comic sans MS;
+    font-style: oblique;
+    font-size: small;
+    font-weight: bold;
+    
+}
+.story{
+    background: rgb(17, 49, 231);
+    display: inline-block;
+}
+.text{
+    background-color: burlywood;
+    color: rgb(255, 0, 85);
+    text-decoration: line-through;
+}
+.cap{
+    
+    background-color: rgb(210, 30, 90);
+    text-transform: capitalize;
+    
+}
+p {
+    
+    background-color: moccasin;
+    padding: 10px;
+    margin: auto;
+    border: 3px dotted red;
+}

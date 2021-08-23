@@ -1,0 +1,15 @@
+* {
+    border-radius: 30px;
+    padding: 8px;
+    text-align: center;
+}
+body {
+    transition: .5s;
+}
+img {
+    margin: 0 auto;
+    visibility: hidden;
+}
+.show {
+    visibility: visible;
+}
