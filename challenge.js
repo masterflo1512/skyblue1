@@ -39,7 +39,7 @@
 document.getElementById("plusBtn").addEventListener("click", () => {
   let data = +document.getElementById("inputNumber").value;
   let result = document.getElementById("number");
-  result.innerHTML = +result.innerHTML * data;
+  result.innerHTML = +result.innerHTML + data;
 });
 
 // let plusCounter = document.getElementById("plusBtn");
