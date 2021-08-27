@@ -6,4 +6,4 @@ function move() {
   position++;
 }
 
-setInterval(move, 100);
+setInterval(move, 10);
